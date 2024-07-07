@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	images: {
-		remotePatterns: [{ hostname: "admired-sardine-409.convex.cloud" }],
-	  //remotePatterns: [{ hostname: "openaidalle support expired" }],
+		remotePatterns: [
+			{ hostname: "admired-sardine-409.convex.cloud" },
+			{ hostname: "oaidalleapiprodscus.blob.core.windows.net" },
+		],
 	},
 };
 
